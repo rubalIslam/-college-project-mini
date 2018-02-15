@@ -1,3 +1,95 @@
-body{        margin: 0;        padding: 10;    }    .spinner{        width: 100%;        height: 40px;    }    ul{        list-style-type: none;        margin: 0;        padding: 0;     }    nav{        background-color: darkgreen;        overflow: hidden;        background-position: relative;        width: 100%;        position: fixed;        top: 0;    }    ul li{        float: left;    }    li a{        text-decoration: none;        padding: 14px 18px;        color: white;        display: inline-block;    }    li a:hover{        background-color: black;        color: aqua;        border-radius:10px;    }    /*li:last-child{        float: right;    }*/    details{            background-color:darkolivegreen;            color:aquamarine;            padding: 10px;            margin: 5px;        }    details div{            background-color:darkslategrey;            color:antiquewhite;            padding: 20px;        }    .news{            background-color: green;            height: 50px;            animation-name: news;            color: white;            animation-duration: 2s;            animation-iteration-count: infinite;        }
-    @keyframes news {            0%{                background-color: green;            }            25%{                background-color: gray;            }            50%{                background-color: green;            }            75%{                background-color: gray;            }            100%{                background-color: green;            }        }
-    .news p{            line-height: 50px;            font-size: 40px;            animation-name: para;            animation-duration: 10s;            animation-iteration-count: infinite;            animation-timing-function: linear;            transform: translate(-100%);        }    @keyframes para {            0%{                transform: translate(100%);            }            100%{                transform: translate(-100%);            }        }
+body{
+        margin: 0;
+        padding: 10;
+    }
+    .spinner{
+        width: 100%;
+        height: 40px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0; 
+    }
+    nav{
+        background-color: darkgreen;
+        overflow: hidden;
+        background-position: relative;
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    ul li{
+        float: left;
+    }
+    li a{
+        text-decoration: none;
+        padding: 14px 18px;
+        color: white;
+        display: inline-block;
+    }
+    li a:hover{
+        background-color: black;
+        color: aqua;
+        border-radius:10px;
+    }
+    /*li:last-child{
+        float: right;
+    }*/
+    details{
+            background-color:darkolivegreen;
+            color:aquamarine;
+            padding: 10px;
+            margin: 5px;
+        }
+    details div{
+            background-color:darkslategrey;
+            color:antiquewhite;
+            padding: 20px;
+        }
+    .news{
+            background-color: green;
+            height: 50px;
+            animation-name: news;
+            color: white;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+    @keyframes news {
+            0%{
+                background-color: green;
+            }
+            25%{
+                background-color: gray;
+            }
+            50%{
+                background-color: green;
+            }
+            75%{
+                background-color: gray;
+            }
+            100%{
+                background-color: green;
+            }
+        }
+
+    .news p{
+            line-height: 50px;
+            font-size: 40px;
+            animation-name: para;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform: translate(-100%);
+        }
+    @keyframes para {
+            0%{
+                transform: translate(100%);
+            }
+            100%{
+                transform: translate(-100%);
+            }
+        }
+
+
